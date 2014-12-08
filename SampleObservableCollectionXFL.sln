@@ -69,6 +69,6 @@ Global
 		{7C68F924-315E-4565-BBA0-C80901304D88}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Android\SampleObservableCollectionXFL.Android.csproj
+		StartupItem = iOS\SampleObservableCollectionXFL.iOS.csproj
 	EndGlobalSection
 EndGlobal

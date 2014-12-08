@@ -7,7 +7,17 @@ namespace SampleObservableCollectionXFL
 {
     public class FooViewModel : ViewModel
     {
-        public ObservableCollection<FooModel> Names { get; set; }
+        private ObservableCollection<FooModel> names;
+        public ObservableCollection<FooModel> Names 
+        { 
+            get {
+                return names;
+
+            }
+            set {
+                this.SetProperty(ref names, value);
+            }
+        }
 
         private Command _loadItemsCommand;
         public Command LoadItemsCommand
