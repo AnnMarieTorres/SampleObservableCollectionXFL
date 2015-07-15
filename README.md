@@ -1,1 +1,1 @@
-http://www.valentinpolushkin.com/using-an-observablecollection-in-xamarin-forms-labs/
+http://www.polouchkine.com/using-an-observablecollection-in-xamarin-forms-labs/
